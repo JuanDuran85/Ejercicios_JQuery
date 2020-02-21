@@ -34,4 +34,16 @@ $(function() {
 	//utilizando el metodo next()
 	var resultado7 = $("#seccion").children().first().children().first().next();
 	console.log(resultado7);
+
+	//buscando el padre de un objeto en especifico
+	var resultado8 = $("#person_b").parent();
+	console.log(resultado8);
+
+	// buscando y mostrando todos los ancestros
+	var resultado9 = $("#person_b").parents("");
+	console.log(resultado9);
+
+	// buscando y mostrando el ancestro mas cercano
+	var resultado10 = $("#person_b").closest(".categoria");
+	console.log(resultado10);
 });
