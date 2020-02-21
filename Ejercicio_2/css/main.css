@@ -1,0 +1,20 @@
+*{
+	margin: 0.2em;
+	padding: 0.2em;
+}
+
+input {
+	margin: 0.5em;
+	padding: 0.2em;
+	font-size: 17px;
+	display: block;
+	font-weight: 500;
+}
+
+.fondo_1 {
+	background-color: #ffaaff;
+}
+
+.fondo_2 {
+	background-color: #aaff11;
+}
