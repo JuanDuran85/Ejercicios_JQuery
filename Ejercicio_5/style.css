@@ -18,3 +18,7 @@ nav div ul a li{
     display: inline-block;
     text-decoration: none;
 }
+
+section > ul {
+    background-color: aqua;
+}

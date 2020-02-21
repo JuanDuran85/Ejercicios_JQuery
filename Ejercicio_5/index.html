@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ejercicios</title>
+    <title>Ejercicios</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <nav class="navbar">
         <div>
             <a href="#">Jquery</a>
@@ -21,16 +20,13 @@
             </ul>
         </div>
     </nav>
-
     <section>
         <h1>Mi web</h1>
-
         <ul>
             <a href="#"><li>Mi web</li></a>
             <a href="#"><li>Mi otra web</li></a>
             <a href="#"><li>Otra web mas</li></a>
         </ul>
-
         <button>Ocultar lista</button>
     </section>
 
@@ -39,16 +35,12 @@
             var list = $('section > ul');
             var nav = $('nav > div:last-child > ul');
             nav.hide();
-            nav.fadeIn(1500);
+            nav.fadeIn(2000);
 
             $("section > button").click(function(){
                 list.toggle(500);
             });
-
-
-            
         })
     </script>
-    
 </body>
 </html>

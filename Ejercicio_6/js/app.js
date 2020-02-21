@@ -25,9 +25,7 @@ function get_smaller(){
   paragraph.style.fontSize = cont +'px';
 }
 
-
 function sortArray(){
-
   var odd_list = document.getElementById('par');
   var even_list = document.getElementById('impar');
   var string_list = document.getElementById('string');
