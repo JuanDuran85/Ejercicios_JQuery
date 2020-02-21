@@ -1,16 +1,24 @@
+body {
+    background-color: beige;
+}
+
 #ejemplo {
-    background-color: azure;
-    width: 60%;
+    width: 40%;
     border: 1px solid black;
     height: 400px;
     margin: auto;
 }
 
-.cambios {
+button {
     display: flex;
     margin: auto;
     font-size: 1.1em;
     padding: 3em;
     font-weight: 700;
     background-color: coral;
+}
+
+.nueva_clase {
+    font-size: 21px;
+    background-color: aqua;
 }
