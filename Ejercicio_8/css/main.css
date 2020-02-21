@@ -1,0 +1,25 @@
+*{
+    background-color: rgba(127, 255, 187, 0.233);
+}
+
+.contenedor {
+    width: 300px;
+    background-color: coral;
+    height: 100px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+#div__resultado {
+    font-size: 1em;
+    vertical-align: middle;
+    line-height: 100px;
+    text-align: center;
+}
+
+button {
+    background-color: blue;
+    padding: 1em;
+    font-size: 1em;
+}
+
