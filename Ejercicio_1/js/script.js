@@ -17,6 +17,9 @@ $(document).ready(function() {
 	// Cambiando el texto de las selecciones mediante clases
 	$(".clase_1").text('Agregando testo a las clases desde JQuery');
 	//seleccionando mediante clase y cambiando el HTML
-	$(".clase_2").html("<strong>Cambiado desde el JQuery</strong>")
-
+	$(".clase_1_2, .clase_1_3, .clase_1_4").html("<strong>Cambiado desde el JQuery</strong>");
+	//aqui se seleccionan todos los descendientes del selector
+	//$("#lista li").addClass('clase_3');
+	//aquí solo se seleccionan los descendientes directos del selector
+	$("#lista > li").addClass('clase_3');
 });
