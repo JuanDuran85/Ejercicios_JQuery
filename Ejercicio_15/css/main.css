@@ -1,0 +1,12 @@
+body {
+    background-color: bisque;
+}
+
+.caja {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    padding: 1em;
+    position: relative;
+}
