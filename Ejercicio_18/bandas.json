@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "nombre": "Argentina",
+        "descripcion":"Argentina, oficialmente República Argentina, es un país soberano de América del Sur, ubicado en el extremo sur y sudeste de dicho subcontinente. Adopta la forma de gobierno republicana, democrática, representativa y federal",
+        "masInfo": "La Argentina está organizada como un Estado federal descentralizado, integrado desde 1994 por un Estado nacional y 24 estados autogobernados",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+        "precio": 50.000
+    },
+    {
+        "id": 2,
+        "nombre": "Brasil",
+        "descripcion":"Brasil es un vasto país de Sudamérica que se extiende desde la Cuenca del Amazonas en el norte hasta los viñedos y las enormes cataratas del Iguazú en el sur.",
+        "masInfo": "Río de Janeiro, simbolizado por su estatua de 38 m del Cristo Redentor sobre el cerro del Corcovado, es famoso por sus ajetreadas playas Copacabana e Ipanema, junto con su enorme y estridente festival del Carnaval, que cuenta con carros alegóricos, exuberantes disfraces y danza y música samba.",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
+        "precio": 150.000
+    },
+    {
+        "id": 3,
+        "nombre": "Colombia",
+        "descripcion":"Colombia es un país del extremo norte de Sudamérica. Su paisaje cuenta con bosques tropicales, las montañas de los Andes y varias plantaciones de café.",
+        "masInfo": "En Bogotá, su capital a gran altura, el distrito Zona Rosa es famoso por sus restaurantes y tiendas. Cartagena, en la costa del Caribe, tiene una Ciudad Antigua colonial amurallada, un castillo del siglo XVI y arrecifes de coral cercanos.",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1024px-Flag_of_Colombia.svg.png",
+        "precio": 550.000
+    },
+    {
+        "id": 4,
+        "nombre": "Perú",
+        "descripcion":"Perú es un país de Sudamérica que abarca una sección del bosque del Amazonas y Machu Picchu, una antigua ciudad inca en las alturas de los Andes.",
+        "masInfo": "La región en torno a Machu Picchu, incluido el Valle Sagrado, el Camino del Inca y la ciudad colonial de Cuzco, es rica en sitios arqueológicos. En la costa árida del Pacífico de Perú se encuentra Lima, la capital, con un centro colonial preservado e importantes colecciones de arte precolombino.",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/1200px-Flag_of_Peru.svg.png",
+        "precio": 350.000
+    }
+]
