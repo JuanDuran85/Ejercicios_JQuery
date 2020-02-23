@@ -136,6 +136,7 @@
               if($input.val() == ''){
                 alert("Debe ingresar un selector jQuery!");
               } else {
+                /* La función eval () evalúa o ejecuta un argumento. Si el argumento es una expresión, eval () evalúa la expresión. Si el argumento es una o más declaraciones de JavaScript, eval () ejecuta las declaraciones. */
                 var $qry = eval("$('"  + $input.val() + "')");
 
                 if ($qry.val() == undefined){
