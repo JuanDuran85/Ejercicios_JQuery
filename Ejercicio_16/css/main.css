@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+}
+
+#caja {
+    width: 40%;
+    border: 1px solid black;
+    height: 400px;
+    margin: 50px auto;
+}
+
+button {
+    display: flex;
+    margin: 50px auto;
+    font-size: 1.4em;
+    padding: 3em;
+    font-weight: 700;
+    background-color: coral;
+}
+
+#resultado {
+    font-size: 21px;
+    background: aqua;
+    width: 50%;
+    height: 20vh;
+    margin: 50px auto;
+    border: 1px solid black;
+}
