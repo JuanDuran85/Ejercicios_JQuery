@@ -1,0 +1,17 @@
+body {
+    background-color: beige;
+}
+
+.contenedor {
+    background-color: lightgreen;
+    width: 50%;
+    margin: 5em auto;
+    height: 50vh;
+}
+
+.contenedor p {
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 1em;
+}
