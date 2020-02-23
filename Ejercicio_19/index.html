@@ -14,14 +14,14 @@
     <header>
         <a href="#" id="total__costo" class="total__costo">Total 0 CLP</a>
     </header>
-    <div id="result"></div>
+    <div id="result" class="mostrar"></div>
     <script id="theTmpl" type="text/x-jsrender">
         <section id="contenedor__caja" class="contenedor__caja" data-id="{{:id}}">
                 <img src="{{:imagen}}" />
                 <div class="titulo__caja">{{:nombre}}</div>
                 <p>{{:descripcion}}</p>
-                <div class="precio__caja">{{:precio}}CLP</div>
-                <button>Agregar a Carro</button>
+                <div class="precio__caja">{{:precio*1000}} CLP</span></div>
+                <button class="compra">Agregar a Carro</button>
                 <div>
                     <a href="#" class="informa__caja">Más Información Aquí</a>
                 </div>
