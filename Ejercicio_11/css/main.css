@@ -1,0 +1,41 @@
+body {
+    background-color: antiquewhite;
+}
+
+.contenedor__input {
+    margin: 50px;
+}
+
+.contenedor__input input {
+    font-size: 20px;
+}
+
+.contenedor__input button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.4em;
+    background-color: magenta;
+}
+
+.contenedor__grupos {
+    width: 80%;
+    margin: 50px;
+    padding: 0.2em;
+}
+
+.grupos {
+    width: 25%;
+    background-color: violet;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 10px;
+}
+
+.eliminar {
+    color: brown;
+    display: inline-block;
+    padding-left: 1em;
+    margin-left: 0.2em;
+}
+
