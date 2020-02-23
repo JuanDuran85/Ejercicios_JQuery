@@ -7,7 +7,7 @@ body {
     margin: 50px auto;
     padding: 0.2em;
     width: 30%;
-    height: 90vh;
+    height: 100%;
 }
 
 .contenedor__caja img {
@@ -25,13 +25,18 @@ button {
 }
 
 .precio__caja, .titulo__caja {
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.mas_informacion__caja {
+.mas_informacion__caja, 
+.mas_informacion__caja2, 
+.mas_informacion__caja3 {
     display: none;
     margin-top: 1.1em;
+    text-align: justify;
 }
 
 .informa__caja {
