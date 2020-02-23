@@ -75,7 +75,11 @@ jQuery.ajax() maneja una gran cantidad de parámetros que permiten configurar el
 * contentType: Indica explícitamente el tipo de datos a recibir desde el servidor
 * error: Función que es invocada al ocurrir un error con la petición, incluidos los errores y/o estatus del servidor: 500, 404, 400 etc.
 * success: Función que es invocada cuando hubo éxito en el procesamiento de la petición.
-* type: GET o POST según sea el caso.
+* type: tipo de la petición, GET o POST (GET por defecto).
+* data : datos a enviar al servidor.
+* dataType : tipo de datos que esperas obtener del servidor (si no se especifica, jQuery intenta averiguar de qué tipo se trata).
+* success : función que se ejecuta cuando se obtiene una respuesta con éxito.
+* error : función que se llama si la petición no tiene éxito.
 
 ## ¿QUÉ ES XML Y QUÉ ES JSON?
 
