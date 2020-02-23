@@ -20,3 +20,10 @@ body {
     text-align: center;
     font-size: 2em;
 }
+
+p {
+    font-size: 1.7em;
+    text-align: center;
+    padding: 3em;
+    margin: auto;
+}
