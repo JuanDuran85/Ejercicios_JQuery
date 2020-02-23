@@ -2,6 +2,20 @@ body {
     background-color: azure;
 }
 
+header {
+    background-color: rgb(8, 7, 15);
+    width: 100%;
+    height: 10vh;
+}
+
+.total__costo {
+    font-size: 2em;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 45%;
+}
+
 .contenedor__caja {
     background-color: lightcoral;
     margin: 50px auto;
@@ -32,9 +46,7 @@ button {
     font-weight: bold;
 }
 
-.mas_informacion__caja, 
-.mas_informacion__caja2, 
-.mas_informacion__caja3 {
+.mas_informacion__caja{
     display: none;
     margin-top: 1.1em;
     text-align: justify;
