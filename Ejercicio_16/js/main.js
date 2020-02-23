@@ -14,5 +14,10 @@ $(function () {
                 console.log("error: ");
             }
         });
+
+        //otra manera de hacer los llamados mediante ajax y jquery.
+        $.ajax("texto.txt").done(function (response) {  
+            $("#resultado2").html(response);
+        })
     })
 });
