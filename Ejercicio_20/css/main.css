@@ -1,0 +1,66 @@
+body {
+    background-color: azure;
+}
+
+header {
+    background-color: rgb(8, 7, 15);
+    width: 100%;
+    height: 10vh;
+}
+
+.total__costo {
+    font-size: 2em;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 45%;
+}
+
+.contenedor__caja {
+    background-color: lightcoral;
+    margin: 50px auto;
+    padding: 0.2em;
+    width: 30%;
+    height: 100%;
+}
+
+.contenedor__caja img {
+    margin: 1px auto;
+    display: block;
+    width: 100%;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 18px;
+    padding: 0.5em;
+    background-color: blueviolet;
+}
+
+.precio__caja, .titulo__caja {
+    font-size: 1.1em;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mas_informacion__caja{
+    display: none;
+    margin-top: 1.1em;
+    text-align: justify;
+}
+
+.informa__caja {
+    font-size: 18px;
+}
+
+.mostrar {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 30px;
+    justify-content: space-between;
+}
