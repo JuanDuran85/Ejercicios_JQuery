@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>JQuery - Formularios - AJAX</title>
+</head>
+<body>
+    <form id="formulario" class="formulario" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido">
+        <label for="direccion">Direccion:</label>
+        <input type="text" id="direccion">
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad">
+        <label for="mascota">Alguna Mascota:</label>
+        <input type="checkbox" name="mascota" id="mascota">
+        <label for="Tipo de Mascota"></label>
+        <select name="tipo_mascota" id="tipo_mascota" class="tipo_mascota">
+            <option value="">Seelcciona un tipo de mascota</option>
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="guacamaya">Guacamaya</option>
+        </select>
+        <section id="muestra"></section>
+        <input type="submit" value="Enviar" id="enviar">
+    </form>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

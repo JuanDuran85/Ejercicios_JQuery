@@ -1,0 +1,29 @@
+body {
+    background-color: antiquewhite;
+}
+
+.formulario {
+    font-size: 17px;
+    margin: 50px auto;
+    padding: 1em;
+    width: 30%;
+    background-color: magenta;
+    border: 1px solid black;
+}
+
+input {
+    display: block;
+    padding: 0.4em;
+    margin: 10px 20px;
+}
+
+input[type="submit"] {
+    background-color: rgb(117, 240, 92);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 18px auto 5px auto;
+}
+
+.tipo_mascota {
+    display: none;
+}
