@@ -23,7 +23,6 @@ $(function () {
                     <p>${valueOfElement.masInfo}</p>
                 </div>
             `;
-
             $("body").append(mostrar);
         });
     });
