@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>JQuery - Efectos</title>
+  </head>
+  <body>
+    <!-- Page Content -->
+    <div>
+      <div>
+        <h1>PokeApi Ejemplo</h1>
+        <p>Un ejemplo de consulta api con ajax</p>
+      </div>
+      <div>
+        <form id="formulario">
+          <div>
+            <label for="numePo">Ingrese número de pokemon</label>
+            <div>
+              <input type="number" class="form-control" id="numePo" placeholder="número de 1 a 807"/>
+            </div>
+          </div>
+          <div>
+            <div>
+              <button type="submit">Consultar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="results">
+        <div >
+          <div class="pokeInfo"></div>
+          <div class="pStats" style="height: 300px; width: auto;"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

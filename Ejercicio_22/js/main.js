@@ -13,6 +13,7 @@ $(function () {
                     //console.log(key2);
                     //console.log(data[key][key2]);
                     elementos.push(data[key][key2]);
+                    console.log(elementos);
                 };
             };
             //console.log("elemento 0");
