@@ -8,7 +8,27 @@
     <title>JQuery - Efectos</title>
 </head>
 <body>
-    
+    <form id="formulario" class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido">
+        <label for="direccion">Direccion:</label>
+        <input type="text" id="direccion">
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad">
+        <label for="mascota">Alguna Mascota:</label>
+        <input type="checkbox" name="mascota" id="mascota">
+        <label for="Tipo de Mascota"></label>
+        <select name="tipo_mascota" id="tipo_mascota" class="tipo_mascota">
+            <option value="">Seelcciona un tipo de mascota</option>
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="guacamaya">Guacamaya</option>
+        </select>
+        <section id="muestra"></section>
+        <input type="submit" value="Enviar" id="enviar">
+    </form>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
