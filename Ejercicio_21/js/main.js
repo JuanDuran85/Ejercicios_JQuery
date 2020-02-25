@@ -26,6 +26,7 @@ $(function () {
 
     $("#formulario").on("submit",function (evento) {  
         evento.preventDefault();
+        console.log($("#formulario").serialize());
         $.ajax({
             type: "POST",
             contentType: "application/json; charset=utf-8",
